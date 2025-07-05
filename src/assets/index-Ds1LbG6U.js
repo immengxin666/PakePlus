@@ -1,0 +1,1 @@
+import{r as e}from"./request-Taj1ukFo.js";const t="/order-service",d=r=>e({url:`${t}/order`,method:"POST",data:r}),i=(r,a,o)=>e({url:`${t}/order/list`,method:"GET",params:{pageNum:r,pageSize:a,...o}}),m=r=>e({url:`${t}/orderItem/details`,method:"GET",params:{orderNo:r}});export{m as a,d as c,i as g};
