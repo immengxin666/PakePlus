@@ -1,0 +1,1 @@
+import{r as s}from"./request-Taj1ukFo.js";const t="/dishes-service/dishes",u=e=>s({url:t,method:"post",data:e}),a=(e,r,o)=>s({url:`${t}/list`,method:"get",params:{pageNum:e,pageSize:r,...o}}),i=(e,r)=>s({url:`${t}/${e}`,method:"put",data:r}),h=e=>s({url:`${t}/${e}`,method:"delete"});export{u as a,h as d,a as g,i as u};
