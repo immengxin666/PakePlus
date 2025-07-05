@@ -1,0 +1,1 @@
+import{r as t}from"./request-Taj1ukFo.js";const r="/dishes-service/ingredients",i=(e,s,n)=>t({url:r+"/list",method:"get",params:{pageNum:e,pageSize:s,...n}}),a=e=>t({url:r,method:"POST",data:e}),o=(e,s)=>t({url:r+`/${e}`,method:"PUT",data:s}),p=e=>t({url:r+`/${e}`,method:"DELETE"}),u=e=>t({url:r+"/listByType",method:"get",params:{type:e}});export{a,u as b,p as d,i as g,o as u};
